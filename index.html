@@ -39,10 +39,10 @@
 
 <body>
     <header
-        class="px-12 h-screen m-2 absolute inset-0 -z-10 h-full w-full bg-white bg-[linear-gradient(to_right,#f0f0f0_1px,transparent_1px),linear-gradient(to_bottom,#f0f0f0_1px,transparent_1px)] bg-[size:6rem_4rem]">
+        class="sm:px-8 md:px-12 h-screen m-2 absolute inset-0 -z-10 h-full md:w-full bg-white bg-[linear-gradient(to_right,#f0f0f0_1px,transparent_1px),linear-gradient(to_bottom,#f0f0f0_1px,transparent_1px)] bg-[size:6rem_4rem]">
         <nav class="flex py-8 justify-between">
             <h3 class="text-2xl font-bold text-[#1c3f3a]">Schoolfin</h3>
-            <div class="flex gap-8 font-light">
+            <div class="hidden md:flex gap-8 font-light">
                 <a href="#">Accueil</a>
                 <a href="#features">Fonctionnalités</a>
                 <a href="#schools">Pour les Promoteurs</a>
@@ -59,12 +59,12 @@
                 Nous Contacter
             </a>
         </nav>
-        <div class="flex h-[80%] bg-[#020301] rounded-3xl ">
-            <div class="flex flex-col w-1/2 justify-center text-white ps-24">
-                <h1 class="text-4xl mb-8 font-semibold">Simplifiez la gestion de votre caisse scolaire et facilitez le
+        <div class="md:flex h-[80%] bg-[#020301] rounded-3xl">
+            <div class="flex flex-col h-full md:h-auto w-full md:w-1/2 justify-center items-center md:items-start text-white px-8 md:px-0 md:ps-24">
+                <h1 class="text-2xl md:text-4xl text-center md:text-start mb-8 font-semibold">Simplifiez la gestion de votre caisse scolaire et facilitez le
                     paiement des frais !</h1>
 
-                <p class="mb-8 font-light">
+                <p class="mb-8 font-light text-center md:text-start">
                     Avec SchoolFin, numérisez vos paiements et gagnez en efficacité et en sérénité.
                 </p>
                 <div class="flex">
@@ -89,7 +89,7 @@
                     </a>
                 </div>
             </div>
-            <div class="w-1/2 justify-end bg-[url('./assets/images/bg-2.png')] bg-contain bg-no-repeat bg-center">
+            <div class="hidden md:flex w-1/2 justify-end bg-[url('./assets/images/bg-2.png')] bg-contain bg-no-repeat bg-center">
             </div>
         </div>
     </header>
